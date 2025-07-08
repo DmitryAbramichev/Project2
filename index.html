@@ -3,39 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Menu</title>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
+
   <body>
-    <header class="header">
-      <button class="header__burger-menu btn">
-        <img class="logo" src="icons/burger-menu.svg" alt="s" />
-      </button>
-      <img class="header__cps" src="icons/CPS.svg" alt="" />
-      <button class="header__search-btn btn">
-        <img class="header__search" src="icons/icon-search.svg" alt="s" />
-      </button>
-    </header>
-    <main class="main">
-      <ul class="main__menu">
-        <li class="repair active-menu"><a href="#repair">Ремонт техники</a></li>
-        <li class="services"><a href="#services">Услуги и сервисы</a></li>
-        <li class="corporate clients">
-          <a href="#corporate clients">Корпоративным клиентам</a>
-        </li>
-        <li class=""><a href="#sellers">Продавцам техники</a></li>
-        <li class="sellers"><a href="#partners">Партнерам</a></li>
-        <li class="manufacturers">
-          <a href="#manufacturers">Производителям</a>
-        </li>
-        <li class="service centers">
-          <a href="#service centers">Наши сервисные центры</a>
-        </li>
-        <li class="contacts"><a href="#contacts">Контакты</a></li>
-      </ul>
-    </main>
-    <footer class="footer">
-      <div class="footer-info">
+    <aside class="aside">
+      <header class="header">
+        <button class="header__burger-menu btn">
+          <img class="burger-img" src="icons/burger-menu.svg" alt="s" />
+        </button>
+        <img class="logo" src="icons/CPS.svg" alt="" />
+        <button class="header__search-btn btn">
+          <img class="header__search" src="icons/icon-search.svg" alt="s" />
+        </button>
+      </header>
+      <div class="aside__main">
+        <ul class="aside__menu">
+          <li class="repair active-menu">
+            <a href="#repair">Ремонт техники</a>
+          </li>
+          <li class="services">
+            <a href="#services">Услуги и сервисы</a>
+          </li>
+          <li class="corporate clients">
+            <a href="#corporate clients">Корпоративным клиентам</a>
+          </li>
+          <li class="sellers">
+            <a href="#sellers">Продавцам техники</a>
+          </li>
+          <li class="partners">
+            <a href="#partners">Партнерам</a>
+          </li>
+          <li class="manufacturers">
+            <a href="#manufacturers">Производителям</a>
+          </li>
+          <li class="service centers">
+            <a href="#service centers">Наши сервисные центры</a>
+          </li>
+          <li class="contacts">
+            <a href="#contacts">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <footer class="aside__footer">
         <ul class="top-bar">
           <li class="btn-item tablet">
             <button class="btn">
@@ -61,14 +72,22 @@
             </button>
           </li>
         </ul>
-        <a class="email" href="mailto:mail@cps.com">mail@cps.com</a>
-        <a class="phone" href="tel:88008908900">8 800 890 8900</a>
-      </div>
-      <div class="change-language">
-        <p class="ru active-language">RU</p>
-        <p class="en">EN</p>
-        <p class="cn">CH</p>
-      </div>
-    </footer>
+        <address class="address">
+          <a class="email" href="mailto:mail@cps.com">mail@cps.com</a>
+          <a class="phone" href="tel:88008908900">8 800 890 8900</a>
+        </address>
+        <ul class="language">
+          <li class="language__item active-language">
+            <a href="/">RU</a>
+          </li>
+          <li class="language__item">
+            <a href="/">EN</a>
+          </li>
+          <li class="language__item">
+            <a href="/">CH</a>
+          </li>
+        </ul>
+      </footer>
+    </aside>
   </body>
 </html>
